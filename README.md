@@ -1,4 +1,4 @@
-# co2a640e88c9294dc954460d9
+# Learning Journal
 
 Quick start:
 
