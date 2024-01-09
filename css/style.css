@@ -139,14 +139,22 @@ footer p {
     color: #D7D7D7;
 }
 
-/* HOME PAGE */
 
-.home {
-   font-weight: 400;
-}
-.home-hero {
+/* HOME AND ABOUT COMMON */
+.home-hero, 
+.about-hero {
     padding: 2rem 1.25rem;
 }
+
+.home, 
+.about {
+    font-weight: 400;
+ }
+
+/* HOME PAGE */
+
+
+
 
 .home-hero h1,
 .home-hero .hero-desc {
@@ -165,4 +173,15 @@ footer p {
     margin-top: 1rem;
 }
 
+/* ABOUT PAGE */
+
+.about-hero img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.about-hero h1 {
+    font-size: 2.5rem;
+    padding-right: 2rem;
+}
 
