@@ -39,7 +39,7 @@ function getHomePageHeroHtml() {
     <section class="home-hero">
         <p class="date">july 23, 2022</p>
         <h1>My new journey as a bootcamp student.</h1>
-        <p class="home hero-desc">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+        <p class="home-hero-desc">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
         <img src="images/article-image-hero.png">
         <h3>How I stay committed to learning</h3>
         <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
