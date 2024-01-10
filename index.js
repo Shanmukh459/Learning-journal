@@ -56,9 +56,15 @@ function getAboutPageHeroHtml() {
     console.log("Inside about Html method")
     return `
         <section class="about-hero">
-            <img src="images/profile-icon.jpg">
-            <h1>Hi there! My name is Shanmukh and welcome to my learning journal.</h1>
-            <p class="about hero-desc">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+            <div class="about-sub-hero">
+                <div class="about-img">
+                    <img src="images/profile-icon.jpg">
+                </div>
+                <div class="about-hero-text">
+                    <h1>Hi there! My name is Shanmukh and welcome to my learning journal.</h1>
+                    <p class="hero-desc">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                </div>
+            </div>
             <h3>How I stay committed to learning</h3>
             <p>I like to think of myself as a lifelong learner. I used to spend hours and hours learning, then try to create simple projects using what I learned or work new techniques into existing projects.</p>
             <p>While that was fun, I felt like it would be helpful to share what I was learning and most things about my journey with the world.</p>
