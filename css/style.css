@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans 3', sans-serif;
+    position:relative;
 }
 
 /* HEADER */
@@ -39,7 +40,8 @@ header {
 .header-right {
     display: flex;
     width: 40%;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
 .btn-nav {
@@ -82,9 +84,9 @@ a {
     padding: 2rem 1.25rem;
 }
 
-.blog {
+/* .blog {
     margin-bottom: 2rem;
-}
+} */
 
 .blog img {
     width: 100%;
@@ -108,11 +110,16 @@ a {
     margin: 0.5rem 0;
 }
 
+.view-btn-container {
+    text-align: center;
+}
+
 .btn-main {
     background: none;
     font-weight: 700;
     text-decoration: underline;
     border: none;
+    margin: 2rem 0;
 }
 
 /* FOOTER */
@@ -121,7 +128,9 @@ footer {
     text-align: center;
     padding: 2rem;
     font-size: 0.75rem;
-    
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer p {
@@ -153,9 +162,6 @@ footer p {
 
 /* HOME PAGE */
 
-
-
-
 .home-hero h1,
 .home-hero .hero-desc {
     padding-right: 2rem;
@@ -183,5 +189,26 @@ footer p {
 .about-hero h1 {
     font-size: 2.5rem;
     padding-right: 2rem;
+}
+
+
+/* KEYFRAMES FOR WIDER SCREEN */
+
+@media (min-width:650px) {
+    .header-right {
+        gap: 2rem;
+    }
+
+    .hero-desc {
+        width: 60%;
+    }
+
+    .blogs-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 2rem 1rem;
+        padding: 2rem;
+    }
+
 }
 

@@ -89,6 +89,26 @@ function getPostsHtml() {
                 <h1>Blog Three</h1>
                 <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
             </section>
+            <section class="blog">
+                <img src="/images/article-image-04.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog One</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="/images/article-image-05.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog One</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="/images/article-image-06.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog One</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+        </div>
+        <div class="view-btn-container">
             <button class="btn-main"><a href="#">View More</a></button>
         </div>`
 }
