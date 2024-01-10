@@ -19,9 +19,7 @@ function renderHomePage() {
 }
 
 function renderAboutPage() {
-    console.log("mainsection before render about", mainSection.innerHTML)
-    mainSection.innerHTML = getAboutPageHeroHtml()
-    console.log("render about executed!", mainSection.innerHTML)
+    mainSection.innerHTML = getAboutPageHeroHtml() + `<h3 class="post-heading">Recent posts</h3>` + postsHtml
 
 }
 
