@@ -14,6 +14,9 @@ document.addEventListener('click', function(e) {
     else if(e.target.dataset.index) {
         renderIndexPage()
     }
+    else if(e.target.dataset.sideBar) {
+        displaySideBar()
+    }
 })
 
 function renderIndexPage() {

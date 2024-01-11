@@ -9,6 +9,10 @@ body {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+.no-display {
+    display: none;
+}
+
 /* HEADER */
 
 h2 {
@@ -25,7 +29,6 @@ header {
 
 .header-left {
     display: flex;
-    width: 60%;
     gap: 0.25em;
     align-items: center;
     color: #0E0E0E;
@@ -36,11 +39,19 @@ header {
     margin: auto 0;
 }
 
+.hamburger-icon {
+    margin-left: auto;
+}
+.hamburger-icon  img{
+    width: 2rem;
+}
+
 .header-right {
     display: flex;
     width: 40%;
     justify-content: flex-end;
     gap: 1rem;
+    position: absolute;
 }
 
 .btn-nav {
