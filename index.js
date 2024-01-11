@@ -2,25 +2,30 @@ const mainSection = document.getElementById("main-section")
 const homeBtn = document.getElementById("home-btn")
 const postsHtml = getPostsHtml()
 
+mainSection.innerHTML = getIndexHtml()
+
 document.addEventListener('click', function(e) {
     if(e.target.dataset.home) {
         renderHomePage()
     }
     else if(e.target.dataset.about) {
-        console.log(e.target.dataset.about)
         renderAboutPage()
     }
+    else if(e.target.dataset.index) {
+        renderIndexPage()
+    }
 })
-mainSection.innerHTML = getIndexHtml()
+
+function renderIndexPage() {
+    mainSection.innerHTML = getIndexHtml()
+}
 
 function renderHomePage() {
     mainSection.innerHTML = getHomePageHeroHtml() + `<h3 class="post-heading">Recent posts</h3>` + postsHtml
-    console.log(mainSection.innerHTML)
 }
 
 function renderAboutPage() {
     mainSection.innerHTML = getAboutPageHeroHtml() + `<h3 class="post-heading">Recent posts</h3>` + postsHtml
-
 }
 
 function getIndexHtml() {
@@ -53,7 +58,6 @@ function getHomePageHeroHtml() {
 }
 
 function getAboutPageHeroHtml() {
-    console.log("Inside about Html method")
     return `
         <section class="about-hero">
             <div class="about-sub-hero">
@@ -98,19 +102,19 @@ function getPostsHtml() {
             <section class="blog">
                 <img src="/images/article-image-04.png">
                 <p class="blog-date">JULY 23, 2022</p>
-                <h1>Blog One</h1>
+                <h1>Blog Four</h1>
                 <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
             </section>
             <section class="blog">
                 <img src="/images/article-image-05.png">
                 <p class="blog-date">JULY 23, 2022</p>
-                <h1>Blog One</h1>
+                <h1>Blog Five</h1>
                 <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
             </section>
             <section class="blog">
                 <img src="/images/article-image-06.png">
                 <p class="blog-date">JULY 23, 2022</p>
-                <h1>Blog One</h1>
+                <h1>Blog Six</h1>
                 <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
             </section>
         </div>
