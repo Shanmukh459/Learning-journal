@@ -1,0 +1,122 @@
+
+<!-- saved from url=(0023)http://127.0.0.1:5500/# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./My Learning Journal_files/normalize.css">
+        <title>My Learning Journal</title>
+        <link rel="stylesheet" href="./My Learning Journal_files/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <link href="./My Learning Journal_files/css2" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header-left">
+                    <img src="./My Learning Journal_files/logo.png" data-index="index">
+                    <h2 data-index="index">My learning journal</h2>
+                </div>
+                <div class="hamburger-icon">
+                    <img src="./My Learning Journal_files/burger-menu.svg" data-side-bar="sideBar">
+                </div>
+                <div id="sidebar" class="sidebar header-right">
+                    <button class="btn-nav"><a href="http://127.0.0.1:5500/#" data-home="home">Home</a></button>
+                    <button class="btn-nav"><a href="http://127.0.0.1:5500/#" data-about="about">About me</a></button>
+                </div>
+            </header>
+            <main id="main-section">
+        <section class="hero">
+            <p class="date">july 23, 2022</p>
+            <h1>My new journey as a bootcamp student.</h1>
+            <p class="hero-desc">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+        </section>
+        
+        <div class="blogs-container">
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-01.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog One</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-02.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog Two</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-03.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog Three</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-04.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog Four</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-05.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog Five</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+            <section class="blog">
+                <img src="./My Learning Journal_files/article-image-06.png">
+                <p class="blog-date">JULY 23, 2022</p>
+                <h1>Blog Six</h1>
+                <p class="blog-desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </section>
+        </div>
+        <div class="view-btn-container">
+            <button class="btn-main"><a href="http://127.0.0.1:5500/#">View More</a></button>
+        </div>
+        </main>
+            
+        </div>
+        <footer>
+            <p class="footer-title">My Learning Journal</p>
+            <p class="footer-tag">Copyrights © 2023</p>
+        </footer>       
+        <script src="./My Learning Journal_files/index.js.download"></script> 
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

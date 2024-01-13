@@ -5,10 +5,6 @@ const postsHtml = getPostsHtml()
 
 mainSection.innerHTML = getIndexHtml()
 
-if (window.matchMedia("(min-width: 650px)")) {
-    sideBar.classList.remove("no-display")
-}
-
 document.addEventListener('click', function(e) {
     if(e.target.dataset.home) {
         renderHomePage()
@@ -38,7 +34,6 @@ function renderAboutPage() {
 }
 
 function toggleSideBar() {
-    // sideBar.style.display = sideBar.style.display === "none" ? "block" : "none"
     sideBar.classList.toggle("no-display")
 }
 

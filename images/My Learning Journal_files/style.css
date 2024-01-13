@@ -59,13 +59,17 @@ header {
     right: 0;
     top: 4.25rem;
     background: #ffffff;
-    padding: 1rem;
+    padding: 2rem;
     align-items: baseline;
+    gap: 1rem;
     width: 30%;
+    
 }
 
 .no-display {
     display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in 1s;
 }
 
 
@@ -75,7 +79,6 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     padding: 0;
-    margin-bottom: 1rem;
 }
 
 a {
@@ -277,24 +280,19 @@ footer p {
     .header-right {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
         width: 40%;
         justify-content: flex-end;
         gap: 1rem;
-        position: static;
         padding: 0;
+        position:static;
         color: black;
     }
-
-    /* .always-display {
-        display: block;
-    } */
     .hamburger-icon {
         display: none;
     }
 
-    .btn-nav {
-        margin-bottom: 0;
+    .no-display {
+        display: block;
     }
 }
 
