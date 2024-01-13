@@ -30,6 +30,7 @@ header {
     align-items: center;
     color: #0E0E0E;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 
 .header-left img {
